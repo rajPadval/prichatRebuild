@@ -6,7 +6,7 @@ const App = () => {
   const [isAuth, setIsAuth] = useState(false);
   return (
     <>
-      <div className="w-[100vw] h-[100vh] flex justify-center items-center m-auto">
+      <div className="flex justify-center items-center m-auto">
         {!isAuth ? (
           <Login setIsAuth={setIsAuth} isAuth={isAuth} />
         ) : (
