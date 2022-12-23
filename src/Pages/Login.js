@@ -5,7 +5,6 @@ const Login = ({ setIsAuth, isAuth }) => {
     signInWithPopup(auth, provider).then((result) => {
       localStorage.setItem("isAuth", true);
       setIsAuth(true);
-      console.log("You are logged in", isAuth);
     });
   };
   return (

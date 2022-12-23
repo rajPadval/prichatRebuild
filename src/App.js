@@ -4,7 +4,6 @@ import Login from "./Pages/Login";
 document.title = "Prichat ";
 const App = () => {
   const [isAuth, setIsAuth] = useState(false);
-  console.log(isAuth);
   return (
     <>
       <div className="w-[100vw] h-[100vh] flex justify-center items-center m-auto">
